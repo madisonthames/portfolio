@@ -13,29 +13,22 @@
     background-size: cover;
     padding-top: 100%;
 
-    &.spotify {
-      background-image: url('../../assets/images/portfolio/spotify-v2.png');
+    &.apple {
+      background-image: url('../../assets/images/portfolio/apple.png');
     }
 
-    &.spotify-old {
-      background-image: url('../../assets/images/portfolio/spotify-v1.png');
+    &.devflix {
+      background-image: url('../../assets/images/portfolio/devflix.png');
     }
 
-    &.isn {
-      background-image: url('../../assets/images/portfolio/isnetworld-website.png');
+    &.alpha {
+      background-image: url('../../assets/images/portfolio/alpha2.png');
     }
 
     &.matchflick {
-      background-image: url('../../assets/images/portfolio/matchflick.png');
+      // background-image: url('../../assets/images/portfolio/matchflick.png');
     }
 
-    &.movie-trivia {
-      background-image: url('../../assets/images/portfolio/movie-trivia.png');
-    }
-
-    &.tph {
-      background-image: url('../../assets/images/portfolio/tph.png');
-    }
   }
 
   &--desc {
@@ -50,5 +43,13 @@
     color: $white;
     padding: 10px 25px;
     border-radius: 30px;
+  }
+
+  .buttons {
+    display: flex;
+
+    div {
+      margin-right: 10px;
+    }
   }
 }
